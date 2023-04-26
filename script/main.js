@@ -3,7 +3,7 @@ const enviarBtn = document.getElementById('submit-btn')
 
 enviarBtn.addEventListener('click', () => {
 
-    let mainPage = 'pages/cervezas.html'
+    let mainPage = 'pages/home.html'
 
     const edad = document.getElementById('edad')
     
