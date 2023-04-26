@@ -137,6 +137,7 @@
   
   .subscribe .submit-btn {
     position: absolute;
+    border: none;
     border-radius: 30px;
     border-bottom-right-radius: 0;
     border-top-right-radius: 0;
