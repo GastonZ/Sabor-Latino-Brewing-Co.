@@ -10,7 +10,7 @@
 }
 .all {
     min-height: 100vh;
-    background-image: url(/images/SABOR\ LATINO.png);
+    background-image: url(/images/SABORLATINO.png);
     font-family: 'Nunito', sans-serif;
     background-size: cover;
     background-position: center;
@@ -71,6 +71,7 @@
   
   .subscribe .submit-btn {
     position: absolute;
+    border: none;
     border-radius: 30px;
     border-bottom-right-radius: 0;
     border-top-right-radius: 0;
