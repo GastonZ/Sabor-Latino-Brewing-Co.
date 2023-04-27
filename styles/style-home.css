@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +8,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .separador {
@@ -15,8 +17,7 @@ body {
 }
 nav {
     background-color: darkslategray;
-    height: 80px;
-    width: 100%;
+    min-height: 10vh;
 }
 label.logo {
     color: white;
@@ -24,6 +25,7 @@ label.logo {
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
+    letter-spacing: 5px;
 }
 
 label.logo-big {
@@ -33,24 +35,29 @@ label.logo-big {
     padding: 0 40px;
     font-weight: bold;
     display: none;
+    letter-spacing: 5px;
 }
 
 nav ul {
 /*     float: right; */
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-right: 20px;
 }
 nav ul li {
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
+
+    letter-spacing: 4px;
 }
 nav ul li a {
     color: white;
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
+    font-size: 22px;
     text-transform: uppercase;
 }
 a .active,a:hover {
