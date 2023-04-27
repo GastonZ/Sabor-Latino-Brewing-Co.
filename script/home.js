@@ -1,24 +1,32 @@
 const cervezas = [
     {
-        img : '../images/heineken.png',
+        img : '../images/quilmes.png',
     },
     {
-        img : '../images/heineken.png',
+        img : '../images/brahma.png',
     },
     {
-        img : '../images/heineken.png',
+        img : '../images/stella.png',
     },
     {
-        img : '../images/heineken.png',
+        img : '../images/corona.png',
     },
     {
-        img : '../images/heineken.png',
+        img : '../images/budweiser.png',
     },
     {
-        img : '../images/heineken.png',
+        img : '../images/patagonia.png',
+    },
+    
+    {
+        img : '../images/andes.png',
     },
     {
-        img : '../images/heineken.png',
+        img : '../images/schneider.png',
+    },
+    
+    {
+        img : '../images/peñon.png',
     }
 ]
 
