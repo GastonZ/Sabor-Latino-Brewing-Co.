@@ -16,7 +16,7 @@ body {
     padding-right: 40px;
 }
 nav {
-    background-color: darkslategray;
+/*     background-color: darkslategray; */
     min-height: 10vh;
 }
 label.logo {
@@ -61,7 +61,7 @@ nav ul li a {
     text-transform: uppercase;
 }
 a .active,a:hover {
-    background: #1b9bff;
+    background: #cba33e94;
     transition: .5s;
 }
 .checkbtn {
@@ -108,7 +108,10 @@ a .active,a:hover {
         position: fixed;
         width: 100%;
         height: 100vh;
-        background: #2c3e50;
+        backdrop-filter: blur(4px) saturate(180%);
+        -webkit-backdrop-filter: blur(4px) saturate(180%);
+        background-color: rgba(17, 25, 40, 0.61);
+        border: 1px solid rgba(255, 255, 255, 0.125);
         top: 80px;
         left: -100%;
         text-align: center;
@@ -116,7 +119,7 @@ a .active,a:hover {
     }
     nav ul li {
         display: block;
-        margin: 50px 0;
+        margin: 20px 0;
         line-height: 30px;
     }
     nav ul li a {
@@ -124,15 +127,20 @@ a .active,a:hover {
     }
     a:hover,a.active {
         background: none;
-        color: #0082e6;
+        color: #cba33e94;
     }
     #check:checked ~ ul {
         left: 0;
     }
 }
-section {
+.section {
     background: url(/images/barra.jpg);
     background-size: cover;
     background-position: center;
-    height: calc(100vh - 30px);
+    min-height: 60vh;
+}
+
+.section-2 {
+    background-color: #333;
+    min-height: 40vh;
 }
