@@ -9,7 +9,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 nav {
-    background-color: darkslategray;
+    background-color: rgba(58, 95, 95, 0.699);
     height: 80px;
     width: 100%;
 }
@@ -92,7 +92,8 @@ a .active,a:hover {
     }
 }
 section {
-    background: url(/images/barman.jpg);
+    background: url(/images/barra.jpg);
     background-size: cover;
+    background-position: center;
     height: calc(100vh - 30px);
 }
