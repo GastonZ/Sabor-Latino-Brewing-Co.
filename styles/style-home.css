@@ -144,3 +144,10 @@ a .active,a:hover {
     background-color: #333;
     min-height: 40vh;
 }
+
+.img-cerveza img{
+    height: 200px;
+    margin: 200px;
+    display: flex;
+    
+}
