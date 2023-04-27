@@ -133,6 +133,7 @@ a .active,a:hover {
         left: 0;
     }
 }
+
 .section {
     background: url(/images/barra.jpg);
     background-size: cover;
@@ -141,13 +142,16 @@ a .active,a:hover {
 }
 
 .section-2 {
-    background-color: #333;
+    background-color: #333333fd;
     min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+    padding: 40px;
 }
 
-.img-cerveza img{
+.img-cerveza img {
     height: 200px;
-    margin: 200px;
-    display: flex;
-    
 }
