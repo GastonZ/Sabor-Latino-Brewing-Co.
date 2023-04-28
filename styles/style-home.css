@@ -152,6 +152,13 @@ nav {
     align-items: center;
     justify-content: center;
     padding-top: 120px;
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+    font-size: 30px;
+    color: #EDA400;
 }
 
 .slogan h2 {
