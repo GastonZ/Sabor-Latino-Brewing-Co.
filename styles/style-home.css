@@ -179,7 +179,7 @@ nav {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    grid-row-gap: 25px;
     place-items: center;
     padding: 40px;
     z-index: 0;
