@@ -1,5 +1,8 @@
 const cervezas = [
     {
+        img: '../images/heineken.png'
+    },
+    {
         img : '../images/quilmes.png',
     },
     {
@@ -14,10 +17,6 @@ const cervezas = [
     {
         img : '../images/budweiser.png',
     },
-    {
-        img : '../images/patagonia.png',
-    },
-    
     {
         img : '../images/andes.png',
     },
@@ -36,6 +35,7 @@ cervezas.forEach((cerveza) => {
   const div = document.createElement("div");
   const img = document.createElement("img");
   div.classList.add("img-cerveza"); // Agregar clase al div
+  img.classList.add("p-20")
   img.src = cerveza.img;
   img.alt = ""; // Agregar atributo alt vacío
   div.appendChild(img);

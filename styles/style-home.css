@@ -155,3 +155,7 @@ a .active,a:hover {
 .img-cerveza img {
     height: 200px;
 }
+
+.p-20 {
+    padding: 20px;
+}
