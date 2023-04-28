@@ -153,6 +153,7 @@ nav {
     justify-content: center;
     padding-top: 120px;
     text-align: center;
+    width: 100%;
 }
 
 .text-center {
@@ -181,10 +182,51 @@ nav {
     padding: 40px;
 }
 
+@media screen and (max-width: 990px) {
+    .section-2 {
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 940px) {
+    .section-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    }
+    .img-cerveza {
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (max-width:  670px) {
+    .slogan h2 {
+        font-size: 40px;
+    }
+}
+
 .img-cerveza img {
     height: 200px;
 }
-
+@media screen and (max-width: 633px) {
+    .img-cerveza img {
+        height: 170px;
+    }
+    .text-center {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 535px) {
+    .section-2 {
+        display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    }
+    .img-cerveza img {
+        height: 200px;
+    }
+    .text-center {
+        font-size: 30px;
+    }
+    
+}
 .p-20 {
     padding: 20px;
 }
