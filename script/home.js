@@ -1,3 +1,5 @@
+AOS.init();
+
 const cervezas = [
     {
         img: '../images/heineken.png',
@@ -45,6 +47,7 @@ cervezas.forEach((cerveza) => {
   const img = document.createElement("img");
   const title = document.createElement("p")
   div.classList.add("img-cerveza"); // Agregar clase al div
+  div.setAttribute("data-aos","zoom-in-down")
   img.classList.add("p-20")
   img.src = cerveza.img;
   img.alt = ""; // Agregar atributo alt vacío
