@@ -134,11 +134,32 @@ a .active,a:hover {
     }
 }
 
+nav {
+    height: 10vh;
+}
+
+
 .section {
     background: url(/images/barra.jpg);
     background-size: cover;
     background-position: center;
     min-height: 60vh;
+}
+
+.slogan {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+.slogan h2 {
+    font-size: 50px;
+    color: #eefafa;
+    letter-spacing: 3px;
+    font-weight: 500;
+    text-align: center;
 }
 
 .section-2 {
@@ -158,4 +179,16 @@ a .active,a:hover {
 
 .p-20 {
     padding: 20px;
+}
+
+.footer {
+    min-height: 30vh;
+    background-color: #EDA400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h3 {
+    font-size: 40px;
 }
