@@ -10,12 +10,11 @@
     background-color: #EDA400;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .section2 .box {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-grow: 1;
     max-width: 450px;
 }
@@ -23,4 +22,23 @@
 
 .box-second{
     align-items: flex-start;
+    padding: 15px 0px 0px 50px;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+.big-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.littlebox {
+    display: flex;
+    align-items: center;
+}
+
+.cel-number {
+    padding-left: 12px;
 }
