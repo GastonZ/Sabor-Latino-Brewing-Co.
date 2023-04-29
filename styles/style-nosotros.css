@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+.main-container {
+    min-height: 100vh;
+}
+
+.main-container .section-1 {
+    height: 40vh;
+    background-color: #EDA400;
+}
+
+.main-container .section-2 {
+    height: 50vh;
+    background-color: #333;
+}
+
+.center-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.circle-middle {
+    position: absolute;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    background-image: url(https://i.pinimg.com/736x/b6/45/3e/b6453e6597ba389340ba257749523f90.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.info-div {
+    display: flex;
+    justify-content: left;
+}
+
+.info-box {
+    text-align: left;
+    line-height: 22px;
+    position: absolute;
+    min-height: 300px;
+    width: 300px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333;
+    top: 40%;
+    left: 20%;
+    padding: 10px 20px 10px 20px;
+    border-radius: 12px;
+}
+
+.info-box-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.info-box-container h2 {
+    color: #EDA400;
+    padding: 20px;
+    font-size: 3.2rem;
+    letter-spacing: 5px;
+}
+
+.info-box-container p{
+    color: #f0ffff;
+    padding: 20px;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+@media screen and (max-width: 890px) {
+    .circle-middle {
+        height: 450px;
+        width: 450px;
+    }
+
+    .info-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 548px) {
+    .circle-middle {
+        height: 350px;
+        width: 350px;
+    }
+
+    .info-box {
+        top: auto;
+        left: auto;
+    }
+
+
+}
