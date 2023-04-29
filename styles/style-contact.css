@@ -9,18 +9,49 @@
     min-height: 40vh;
     background-color: #EDA400;
     display: flex;
-    justify-content: space-evenly;
+
 }
 
-.section2 .box {
+.box  {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-    max-width: 450px;
+    flex-direction: column;
+    width: 450px;
+    height: 350px;
 }
-
-
-.box-second{
-    align-items: flex-start;
+.box h2 {
+    display: flex;
+    margin-top: 1rem;
+    font-size: 50px;
+    padding-left: 24px;
+}
+.box {
+    background-color: #f7b827;
+}
+.box h6 {
+    font-size: 18px;
+    margin-left: 3rem;
+}
+.comment {
+    background-color: #dadfdf ;
+}
+.littlebox1, .littlebox {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin-top: 1rem;
+}
+.littlebox, .littlebox1 h5 {
+    font-size: 20px;
+    padding-top: 5px;
+}
+.littlebox1 img {
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+}
+.littlebox img {
+    height: 25px;
+    width: 25px;
+    margin-right: 20px;
+    padding-left: 3px;
 }
