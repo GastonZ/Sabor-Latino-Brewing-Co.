@@ -1,0 +1,23 @@
+
+.section1 {
+    background-image: url(/images/vasonegro.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 50vh;
+}
+.section2 {
+    background-color: #AA6822;
+    display: flex;
+}
+.box {
+    height: 350px;
+    width: 450px;
+}
+.littlebox img {
+    height: 70px;
+    width: 70px;
+}
+.littlebox1 img {
+    height: 50px;
+    width: 50px;
+}
