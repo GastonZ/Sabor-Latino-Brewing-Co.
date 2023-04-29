@@ -245,3 +245,12 @@ nav {
 .footer h3 {
     font-size: 40px;
 }
+
+/* contact us */
+
+.section1 {
+    background-image: url(/images/vasonegro.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 50vh;
+}
