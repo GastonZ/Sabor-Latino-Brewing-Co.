@@ -119,3 +119,21 @@ body {
     font-size: 40px;
 }
 
+
+/* ejemplo */
+
+.fondo {
+    height: 300px;
+    z-index: 0;
+    position: absolute;
+}
+.adelante {
+    height: 300px;
+    z-index: 999;
+    position: absolute;
+    transition: transform .2s;
+}
+.adelante:hover {
+    transform: scale(1.17);
+    margin-left: 5px;
+}
