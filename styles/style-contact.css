@@ -13,8 +13,9 @@
 
 .box  {
     display: flex;
+    flex-grow: 1;
     flex-direction: column;
-    width: 450px;
+    width: auto;
     height: 350px;
 }
 .box h2 {
@@ -53,4 +54,28 @@
     width: 25px;
     margin-right: 20px;
     padding-left: 3px;
+}
+@media screen and (max-width: 940px) {
+    .map {
+        width: 300px;
+        height: 300px;
+    }
+    .box {
+        height: 300px;
+    }
+    .littlebox1 {
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 770px) {
+    .section2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .map {
+        width: 100%;
+    }
+    iframe {
+        width: 100%;
+    }
 }

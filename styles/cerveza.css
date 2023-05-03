@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.section3 {
+    background-image: url(/images/vaso-brewing.jpg);
+    min-height: 60vh;
+    background-position: bottom;
+    background-size: cover;
+}
+.fondo {
+    height: 300px;
+    z-index: 0;
+    position: absolute;
+}
+.adelante {
+    height: 300px;
+    z-index: 999;
+    position: absolute;
+    transition: transform .2s;
+}
+.adelante:hover {
+    transform: scale(1.17);
+    margin-left: 5px;
+}
